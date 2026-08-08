@@ -6,7 +6,7 @@ import react from "@vitejs/plugin-react";
 // If you deploy to a user/org page (<user>.github.io) or a custom domain,
 // set base to "/".
 export default defineConfig({
-  base: "/studylock-web/",
+  base: "/StudyLockWeb/",
   plugins: [react()],
   server: { port: 5173 },
 });
